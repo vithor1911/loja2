@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Produtos */
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.produto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produto h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.preco-input {
+  width: 120px;
+  padding: 5px;
+  margin-left: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.estoque-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
